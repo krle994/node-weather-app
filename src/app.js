@@ -1,8 +1,8 @@
 const path = require('path')
 const express = require('./node_modules/express')
 const hbs = require('./node_modules/hbs')
-const geocode = require('../utils/geocode')
-const forecast = require('../utils/forecast')
+const geocode = require('./utils/geocode')
+const forecast = require('./utils/forecast')
 
 // Define paths for express and handlebars
 const pubPath = path.join(__dirname, '../public')
